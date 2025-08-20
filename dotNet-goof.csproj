@@ -1,6 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TaretFramework>net8.0</TaretFramework>
     <OutputType>Exe</OutputType>
     <RootNamespace>dotNet_goof</RootNamespace>
   </PropertyGroup>
