@@ -1,17 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj": {}
+    "c:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj": {
+    "c:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj",
-        "projectPath": "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj",
+        "projectUniqueName": "c:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj",
+        "projectName": "dotNet-goof",
+        "projectPath": "c:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj",
         "packagesPath": "C:\\Users\\vnrs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\obj\\",
+        "outputPath": "c:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -26,13 +27,169 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "http://maven/nexus/repository/itcm_nuget_group/": {},
           "http://maven/nexus/repository/itcm_templates": {},
           "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.21.2, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.19.1, )"
+            },
+            "Csla": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "FsPickler.Json": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "Kentico.Xperience.Core": {
+              "target": "Package",
+              "version": "[13.0.178, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.PowerShell.SDK": {
+              "target": "Package",
+              "version": "[7.4.6, )"
+            },
+            "Microsoft.SqlServer.SqlManagementObjects": {
+              "target": "Package",
+              "version": "[171.30.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.5.2, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.25.0, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.DirectoryServices.AccountManagement": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.DirectoryServices.Protocols": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.4.5, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Runtime.Serialization.Formatters": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "YoutubeDLSharp": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
