@@ -30,7 +30,6 @@ spec:
         hostnames:
         - "foo.remote"
         - "bar.remote"
-      hostPID: true
       containers:
         - name: snyky1
           image: "garethr/snyky1:latest"
@@ -65,18 +64,18 @@ spec:
               path: /
               port: http
           resources:
-            # limits:
-              # cpu: 100
-              # memory: 100
+            limits:
+              cpu: 100
+              memory: 100
           securityContext:
             readOnlyRootFilesystem: false
-            allowPrivilegeEscalation: true
-            # runAsNonRoot: true
+            allowPrivilegeEscalation: false 
+            runAsNonRoot: true
             runAsUser: 1
             privileged: false
             capabilities:
-              # drop:
-                # - all
+              drop:
+                - all
               add:
                 - CAP_SYS_ADMIN
       volumes:
