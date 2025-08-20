@@ -1,60 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj": {}
+    "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj": {}
   },
   "projects": {
-    "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj": {
-      "version": "1.0.0",
+    "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj": {
       "restore": {
-        "projectUniqueName": "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj",
-        "projectName": "dotNet-goof",
-        "projectPath": "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj",
-        "packagesPath": "/Users/pstember/.nuget/packages/",
-        "outputPath": "/Users/pstember/Git/dotNet-goof/obj/",
+        "projectUniqueName": "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj",
+        "projectPath": "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj",
+        "packagesPath": "C:\\Users\\vnrs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "/Users/pstember/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "C:\\Users\\vnrs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "http://maven/nexus/repository/itcm_nuget_group/": {},
+          "http://maven/nexus/repository/itcm_templates": {},
           "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp2.2": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
-            "System.Management.Automation": {
-              "target": "Package",
-              "version": "[6.1.0, )"
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
         }
       }
     }

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "dEFYAAKrppA=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'dotNet-goof': Invalid framework identifier ''.",
+      "projectPath": "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj",
+      "filePath": "C:\\Users\\vnrs\\Repos\\dotnet-goof-vnrs\\dotNet-goof.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
